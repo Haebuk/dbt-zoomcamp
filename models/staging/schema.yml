@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: staging
+    database: silken-quasar-350808
+    schema: dezoomcamp
+    tables:
+      - name: green_tripdata
+      - name: yellow_tripdata
